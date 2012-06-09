@@ -1,0 +1,25 @@
+<!-- [MENSAJES] -->
+<?php if($this->FAILURE_IDENTITY_NOT_FOUND) : ?>
+    <div class="alert alert-error">
+        <a class="close" data-dismiss="alert">×</a>
+        <strong>Error!</strong> Los datos ingresados son incorrectos
+    </div>
+<?php endif; ?>
+
+<?php if($this->FAILURE_CREDENTIAL_INVALID) : ?>
+    <div class="alert alert-error">
+        <a class="close" data-dismiss="alert">×</a>
+        <strong>Error!</strong> La contraseña introducida, no es la correcta
+    </div>
+<?php endif; ?>
+
+<?php if($this->WARNING) : ?>
+    <div class="alert alert-block">
+        <a class="close" data-dismiss="alert">×</a>
+        <h4 class="alert-heading">Advertencia!</h4>
+        <p>Se han detectado los siguientos errores indicados de color rojo</p>
+    </div>
+<?php endif; ?>
+
+<!-- [FORMULARIO] -->
+<?php echo $this->formulario; ?>

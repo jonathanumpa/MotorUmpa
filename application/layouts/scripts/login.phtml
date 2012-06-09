@@ -1,0 +1,29 @@
+<?php echo $this->doctype();echo "\n"; ?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+<?php echo $this->headTitle();echo "\n"; ?>
+<?php echo $this->headMeta();echo "\n"; ?>
+<?php echo $this->headLink();echo "\n"; ?>
+<?php echo $this->headScript();echo "\n"; ?>    
+</head>
+<body>
+<div class="container">
+    <center>
+    <div class="page-header">
+        <h1>
+        ¡Bienvenido a Fasedata!<br >
+        <small>Podrás manejar tu sitio web desde un solo lugar</small></h1>
+        
+    </div>
+    <div class="container-fluid">
+        <div class="logotipo-fasedata">
+            <img src="http://placehold.it/100x100" alt="" />
+        </div>
+        <?php echo $this->layout()->content; ?>
+    </div>
+    </div>
+    </center>
+</div>	
+</body>
+</html>

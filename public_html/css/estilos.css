@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* 
+    Document   : estilos.css
+    Created on : 18-mar-2012, 17:04:07
+    Authores     : Cristhián Monasterio, Jonathan Ramirez; Desarrolladores Web.
+    Description: Panel de Administración Fasedata. Concepción, 2012.
+    Versión 1.0
+
+*/
+/* SISTEMA 29-04-2012 */
+body{
+    padding-top: 60px;
+}
+body.nada{
+    padding-top: 5px;
+}
+#formulario-login{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 25px;
+    width: 220px;
+    height: 330px;
+    overflow: hidden;
+}
+#formulario-login .logotipo-fasedata{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+/* SISTEMA 01-05-2012 */
+.mensaje-flotante{
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 940px;
+    text-align: center;
+}
+.error{
+    border: 1px dashed #FF0000;
+}
+/* 02-05-2012 */
+.texto-contrasena{
+    margin: 25px 0 0 0;
+    text-align: center;
+}
+/* 15-05-2012 */
+.alto{
+    overflow: hidden !important;
+}
+.izquierda{
+    text-align: justify !important;
+}
+.masgrande2{
+    width: 160px !important
+}

@@ -1,0 +1,19 @@
+<?php echo $this->doctype();echo "\n"; ?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+<?php echo $this->headTitle();echo "\n"; ?>
+<?php echo $this->headMeta();echo "\n"; ?>
+<?php echo $this->headLink();echo "\n"; ?>
+<?php echo $this->headScript();echo "\n"; ?>    
+</head>
+<body class="nada">
+    <div class="container">
+        <?php echo $this->action('top','layout','sistema').'<br />';?>
+        <?php echo $this->action('menu','layout','sistema');?>
+        <?php echo $this->action('titulo','layout','sistema');?>
+        <?php echo $this->layout()->content; ?>   
+        <hr >
+       <?php echo $this->action('bottom','layout','sistema');?> 
+    </div>
+</body>
